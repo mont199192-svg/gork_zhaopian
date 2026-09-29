@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Claude Code：心流 Opus 5.5",
+      "type": "shell",
+      "command": "claude",
+      "args": [
+        "--model",
+        "claude-opus-5-5"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "echo": false,
+        "focus": true,
+        "panel": "dedicated",
+        "showReuseMessage": false
+      }
+    },
+    {
+      "label": "检查 Claude Code 版本",
+      "type": "shell",
+      "command": "claude",
+      "args": [
+        "--version"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

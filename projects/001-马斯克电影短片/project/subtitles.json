@@ -1,0 +1,46 @@
+{
+  "note": "字幕文案。时间按镜头顺序自动排布：每条字幕的 shot 指向 shots.json 里的镜头 id，start/end 是相对该镜头开头的秒数。改文字直接改这里，不用动代码。",
+  "style": {
+    "fontName": "Microsoft YaHei",
+    "fontSize": 42,
+    "primaryColour": "&H00FFFFFF",
+    "outlineColour": "&H00000000",
+    "borderStyle": 1,
+    "outline": 2,
+    "shadow": 1,
+    "marginBottom": 56,
+    "styleNote": "白字 + 黑描边，文字直接浮在画面上，没有底框。borderStyle=1 是描边模式，outline 是描边粗细；想换回半透明底框就把 borderStyle 改成 4 并设 boxOpacity。"
+  },
+  "cues": [
+    {
+      "shot": "shot-01",
+      "start": 0.6,
+      "end": 4.4,
+      "text": "有人问他，为什么非要去火星。"
+    },
+    {
+      "shot": "shot-02",
+      "start": 0.8,
+      "end": 4.0,
+      "text": "他没有回答。"
+    },
+    {
+      "shot": "shot-02",
+      "start": 4.4,
+      "end": 7.6,
+      "text": "他只是把船造了出来。"
+    },
+    {
+      "shot": "shot-03",
+      "start": 0.8,
+      "end": 3.6,
+      "text": "地球是人类的摇篮，"
+    },
+    {
+      "shot": "shot-03",
+      "start": 3.8,
+      "end": 6.8,
+      "text": "但没有人会在摇篮里待一辈子。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "video-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "从创意到成片的视频自动化工作流（心流 Grok 媒体 API）",
+  "scripts": {
+    "check": "node src/checkModels.js",
+    "dryrun": "node tests/dryRun.js",
+    "quote": "node src/quote.js",
+    "refs": "node src/genRefs.js",
+    "refs:test": "node src/genRefs.js -- --limit 1 --only ref-character",
+    "probe": "node src/probe.js",
+    "video": "node src/genVideos.js",
+    "video:test": "node src/genVideos.js -- --limit 1",
+    "video:b64": "node src/genVideos.js -- --limit 1 --refs-base64",
+    "status": "node src/status.js",
+    "edit": "node src/edit.js",
+    "compose": "node src/compose.js",
+    "tts": "node src/tts.js",
+    "preview": "node src/preview.js",
+    "frames": "node src/frames.js",
+    "export": "node src/export.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
